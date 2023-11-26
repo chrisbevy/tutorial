@@ -1,0 +1,37 @@
+body{ background: url("image/natural.jpg");
+    background-size: cover;
+
+}
+.slab{background-color: rgb(53, 36, 15);
+    width: 250px;
+    padding: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin: auto;
+
+}
+.sign{ color: yellow;}
+#one{
+    color: rgb(255, 244, 196);
+}
+#two{color: rgb(255, 205, 243);}
+input{
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: solid  ;
+    background: transparent;
+}
+button{
+    border-radius: 25px;
+    width: 100px;
+    text-align: center;
+    font-size:  20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{ background-color: black;
+    color: white;
+}
+

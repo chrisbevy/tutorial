@@ -1,0 +1,43 @@
+/* select{ property: value} */
+body{
+    background: url("image/hotel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inputs{
+    background: rgba(62, 8, 8, 0.5);
+    padding: 48px;
+    width: 250px;
+    margin-top: 90px;?
+    margin-left:180px ;
+    margin: 0 auto;
+
+    
+}
+h2{color: yellow;}
+
+.stands {color: rgb(195, 205, 50);}
+
+a{ color: rgb(0, 23, 128);}
+
+/* .john{ text-align: center;} */
+
+input{width: 240px;
+    padding: 5px;
+    text-align: center;
+    /* background:transparent; */
+    border-color: azure;  
+    border-bottom: 2px solid:rgb(195, 205, 50);
+    text color: white;
+}
+button{ border-radius: 25px;
+font-size: 20px;
+padding: 10px;
+cursor: pointer;
+width: 120px;
+margin-left: 180px;}
+button:hover{
+    background: black;
+    color:bisque
+}

@@ -1,0 +1,169 @@
+body{
+    font: 38px/1.5 arial, ;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+     
+}
+
+/* global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;} 
+
+    ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+/* button */
+    .button{
+         height: 38px;
+         background-color: orangered;
+         padding-left: 20px;
+         padding-right: 20px;
+         border: 0px;
+         color: #f4f4f4;
+    }
+
+    .daRK{
+        background-color: rgb(90, 43, 43);
+        color: azure;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    /* header effect */
+    header{
+        background-color: rgb(34, 8, 8);
+        color: #f4f4f4;
+        padding-top: 15px;
+        border-bottom: red 2px solid;
+    }
+
+    header a{
+         color: white;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 13px;
+    }
+
+    header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px ;
+    }
+
+    header #branding{ 
+        float: left;
+    }
+    header #branding h1{
+        margin: 0;
+    }
+
+    header nav{
+        float: right;
+        margin-top: 10px;
+    }
+
+    header .highlight{
+        color: orange;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: tahoma;
+    }
+
+    header .current a{
+        color: orange;
+        font-weight: bold;
+        
+    }
+    header a:hover{
+        color: aquamarine;
+
+    }
+
+    /* boxes */
+    #boxes{
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        border-bottom: coral solid ;
+    }
+
+    .box{
+        background-color: rgb(80, 40, 10);
+        color: #f4f4f4;
+        width: 250px;
+        margin: auto;
+        border-radius: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding: 10px;
+    }
+
+    .boxes .box img{
+        width: 20px    }
+    .ben{
+        margin-top: 20px;
+    }
+
+    /* showcase */
+    #showcase{
+        min-height: 200;
+        background: url("/image/pics\ 2222.jpg" );
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color:rgb(31, 26, 17);
+        font-size: 20px;
+    }
+    #showcase h1{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    #showcase p{
+        font-size: 25px;
+        color: dark rgb(28, 54, 28);
+    }
+
+    /* newsletter */
+    #newsletter{
+        background-color: rgb(32, 13, 13);
+        color: #f4f4f4;
+    }
+    #newsletter form{
+        float: right;
+        padding: 30px;
+    }
+    #newsletter h1{ 
+        float:left;
+    }
+    #newsletter input{
+        padding: 4px;
+        height: 25px;
+        width: 250px;
+    }
+
+    #newsletter button{
+        padding: 4px;
+        height: 25px;
+        width: 80px;
+    }
+
+    /* aside */
+    /* aside #asidebar{
+        float: right;
+        width: 30%;
+        margin-top: 10px;
+    } */
+
+
+    
+    
+
